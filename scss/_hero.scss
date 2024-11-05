@@ -1,0 +1,50 @@
+.hero {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    h2 {
+        text-transform: uppercase;
+        font-size: 90px;
+    }
+    p {
+        font-style: italic;
+        font-size: 20px;
+    }
+}
+@media (max-width: 990px) {
+    .hero {
+        h2 {
+            font-size: 70px;
+        }
+    }
+}
+@media (max-width: 622px) {
+    .hero {
+        h2 {
+            font-size: 65px;
+        }
+        p {
+            font-size: 18px;
+        }
+    }
+}
+@media (max-width: 464px) {
+    .hero {
+        h2 {
+            font-size: 50px;
+        }
+        p {
+            font-size: 16px;
+        }
+    }
+}
+@media (max-width: 326px) {
+    .hero {
+        h2 {
+            font-size: 40px;
+        }
+        p {
+            font-size: 14px;
+        }
+    }
+}

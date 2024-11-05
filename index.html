@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+<body>
+    <section class="hero">
+        <div class="container">
+            <h2>Loop</h2>
+            <p>JavaScriptdagi looplar ma'lumotlar to'plamini yoki biror amalni takrorlashda yordam beradi.</p>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <h2>JavaScriptda eng ko'p ishlatiladigan looplar quyidagilar:</h2>
+            <ol>
+                <li>1. for - loopi odatda oldindan belgilangan miqdorda takrorlash talab qilinganda ishlatiladi.</li>
+                <div class="box">
+                    <h4 class="multi-color-text">for (let i = 0; i < 5; i++) {
+                        console.log(i); // 0, 1, 2, 3, 4
+                      }
+                      </h4>
+                </div>
+                <li>2. while - loopi shart true bo'lgan paytda amalni takrorlaydi.</li>
+                <div class="box">
+                    <h4 class="multi-color-text">let i = 0;
+                        while (i < 5) {
+                          console.log(i);
+                          i++;
+                        }                        
+                      </h4>
+                </div>
+                <li>3. do while - loopida avval kod bajariladi, keyin shart tekshiriladi.</li>
+                <div class="box">
+                    <h4 class="multi-color-text">let i = 0;
+                        do {
+                          console.log(i);
+                          i++;
+                        } while (i < 5);                                              
+                      </h4>
+                </div>
+                <li>4. break - shart bajarilganda yoki biror holat yuzaga kelganda siklni darhol tugatishni ta'minlaydi.</li>
+                <div class="box">
+                    <h4 class="multi-color-text">for (let i = 0; i < 10; i++) {
+                        if (i === 5) {
+                          break; // i 5 ga teng bo'lganda sikl to'xtaydi
+                        }
+                        console.log(i);
+                      }                                                                   
+                      </h4>
+                </div>
+                <li>5. continue - ikl davom etadi, lekin continue dan keyingi kod ishlatilmaydi va keyingi iteratsiyaga o'tiladi.</li>
+                <div class="box">
+                    <h4 class="multi-color-text">for (let i = 0; i < 10; i++) {
+                        if (i === 5) {
+                          continue; // i 5 ga teng bo'lganda o'tkazib yuboradi
+                        }
+                        console.log(i);
+                      }                                                                                       
+                      </h4>
+                </div>
+            </ol>
+        </div>
+    </section>
+
+</body>
+</html>
